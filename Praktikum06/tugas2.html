@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            margin: 0;
+            background-color: wheat;
+        }
+        #main{
+            display: flex;
+            flex: 1;
+        }
+        #main > article{
+            background-color: forestgreen;
+            flex: 1;
+            order: 2;
+        }
+        #main > nav{
+            background-color: deeppink;
+            flex: 0 0 15vw;
+        }
+        #main > aside{
+            background-color: goldenrod;
+            order: 2;
+            flex: 0 0 20vw;
+        }
+        header , footer{
+            background-color: indianred;
+            height: 20vh;
+        }
+        header, footer, article, nav, aside {
+            padding: 1em;
+            margin: 1em;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 6.2</title>
+</head>
+<body>
+    <header>Header</header>
+        <div id="main">
+            <article>Article</article>
+            <nav>Nav</nav>
+            <aside>Aside</aside>
+        </div>
+    <footer>Footer</footer>
+</body>
+</html>

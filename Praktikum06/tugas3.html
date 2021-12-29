@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            margin: 0;
+        }
+        #main{
+            display: flex;
+            flex: 1;
+        }
+        #main > aside{
+            order: 1;
+            flex: 0 0 25vw;
+            background-color: green;
+            justify-content: center;
+        }
+        #main > article{
+            flex: 1;
+            order: 2;
+            background-color: lightgreen;
+        }
+        header, footer{
+            background-color: darkkhaki;
+            height: 10vh;
+        }
+        header, footer, article, aside{
+            padding: 1em;
+            margin: 1em;
+        }
+        .kotak1{
+            width: 20%;
+            height: 50%;
+            background-color: lightpink;
+            float: left;
+            margin: 3em;
+        }
+        .kotak2{
+            width: 20%;
+            height: 50%;
+            background-color: lightpink;
+            float: left;
+            margin: 3em;
+        }
+        .kotak3{
+            width: 20%;
+            height: 50%;
+            background-color: lightpink;
+            float: left;
+            margin: 3em;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 6.3</title>
+</head>
+<body>
+    <header>Header</header>
+    <div id="main">
+        <article>Article
+            <div class="kotak1"></div>
+            <div class="kotak2"></div>
+            <div class="kotak3"></div>
+        </article>
+        <aside>Aside</aside>
+    </div>
+    <footer>Footer</footer>
+</body>
+</html>

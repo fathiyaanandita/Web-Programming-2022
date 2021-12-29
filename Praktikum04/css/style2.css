@@ -1,0 +1,35 @@
+* {
+    margin: 5px;
+    padding: 10px;
+    
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 100px;
+}
+a {
+    text-decoration: none;
+    color: rgb(139, 11, 11);
+}
+p {
+    color: rgb(139, 11, 11);
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}

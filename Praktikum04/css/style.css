@@ -1,0 +1,44 @@
+.profile-name {
+    width: 30%;
+    height: 250px;
+    background-color: antiquewhite;
+    float: left;
+    margin: 30px;
+}
+.photo-profile {
+    float: left;
+    margin: 30px;
+}
+.categories {
+    width: 30%;
+    height: 250px;
+    float: left;
+    margin:10px;
+    padding: 15px;
+    text-align: right;
+}
+.isi {
+    float: left;
+}
+.section1 {
+    margin: 20px;
+    padding: auto;
+    width: fit-content;
+    height: fit-content;
+    float: left;
+}
+.section2 {
+    margin: 20px;
+    padding: auto;
+    width: 30%;
+    height: 30%;
+    float: left;
+}
+.section3 {
+    margin: 25px;
+    padding: auto;
+    width: fit-content;
+    height: fit-content;
+    float: left;
+    text-align: center;
+}

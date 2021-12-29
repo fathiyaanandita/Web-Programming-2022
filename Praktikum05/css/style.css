@@ -1,0 +1,126 @@
+.kotak1 {
+    width: 15%;
+    height: 500px;
+    background-color: moccasin;
+    margin: 60px;
+    float: left;
+    border-style: solid;
+    padding: 0%;
+    position: relative;
+}
+.kotak2 {
+    width: 15%;
+    height: 500px;
+    background-color: darkseagreen;
+    margin: 60px;
+    float: left;
+    border-style: dashed;
+    padding: 0%;
+    position: relative;
+}
+.kotak3 {
+    width: 15%;
+    height: 500px;
+    background-color: darksalmon;
+    margin: 60px;
+    float: left;
+    border-style: dotted;
+    padding: 0%;
+    position: relative;
+}
+.kotak4 {
+    width: 15%;
+    height: 500px;
+    background-color: khaki;
+    margin: 60px;
+    float: left;
+    border-style: double;
+    padding: 0%;
+    position: relative;
+}
+.kotakpanjang {
+    width: 93%;
+    height: 150px;
+    background-color: darkslategray;
+    margin: 20px;
+    position: relative;
+    border-style: double;
+}
+.kotakpersegi1 {
+    width: 20%;
+    height: 250px;
+    background-color: darkturquoise;
+    float: left;
+    margin: 20px;
+    position: relative;
+    border-style: double;
+}
+.kotaklagi {
+    width: 70%;
+    height: 250px;
+    background-color: olive;
+    float: left;
+    margin: 20px;
+    position: relative;
+    border-style: double;
+}
+.kotakpersegi2 {
+    width: 20%;
+    height: 200px;
+    background-color: turquoise;
+    float: left;
+    margin: 20px;
+    position: relative;
+    border-style: double;
+}
+.kotakpanjang3 {
+    width: 70%;
+    height: 200px;
+    background-color: burlywood;
+    float: left;
+    margin: 20px;
+    position: relative;
+    border-style: double;
+}
+.kotakpendek1 {
+    width: 20%;
+    height: 100px;
+    background-color: palevioletred;
+    float: left;
+    margin: 20px;
+}
+.kotakpendektapipanjang {
+    width: 73%;
+    height: 100px;
+    background-color: pink;
+    float: left;
+    margin: 20px;
+}
+.kotaklonjonglancip1 {
+    width: 20%;
+    height: 360px;
+    background-color: salmon;
+    float: left;
+    margin: 20px;
+}
+.kotaklebar {
+    width: 50%;
+    height: 360px;
+    background-color: lightgray;
+    float: left;
+    margin: 20px;
+}
+.kotaklonjonglancip2 {
+    width: 20%;
+    height: 360px;
+    background-color: salmon;
+    float: left;
+    margin: 20px;
+}
+.kotaklangsingbawah {
+    width: 96%;
+    height: 70px;
+    background-color: lime;
+    float: left;
+    margin: 20px;
+}
