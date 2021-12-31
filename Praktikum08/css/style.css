@@ -1,0 +1,26 @@
+body{
+    color: lightpink;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: linen;
+    padding: 1em;
+    width: 20%;
+    border-radius: 1em;
+}
+input, select, button {
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    outline: none;
+    border: 1px solid powderblue;
+}
+.result {
+    text-align: center;
+}
